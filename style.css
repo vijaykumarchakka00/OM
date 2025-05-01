@@ -12,6 +12,13 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+.header3-bg{
+	background-image: url('/Images/Casa\ De\ Amor-47.jpg'); /* Replace with your image path */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+  }
 .orange {
     color: #FF3B30 !important;
 }
@@ -100,4 +107,9 @@
 }
 /* Reset some default browser styles */
 
-  
+.small-img {
+	width: 100%;
+	object-fit: cover;
+	height: 100px;
+	border-radius: 4px;
+  }
