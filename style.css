@@ -1,3 +1,21 @@
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goldman-bold {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 .header-bg{
     background-image: url('/Images/Casa\ De\ Amor-04.jpg'); /* Replace with your image path */
     background-size: cover;
@@ -10,15 +28,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 60vh;
 }
 .header3-bg{
 	background-image: url('/Images/Casa\ De\ Amor-47.jpg'); /* Replace with your image path */
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 70vh;
   }
+.height-10 {
+  height: 10vh;
+}
 .orange {
     color: #FF3B30 !important;
 }
@@ -28,78 +49,6 @@
 }
 .border-orange {
 	border-color: #FF3B30 !important;
-}
-/* General button style (reset) */
-.btn_cus {
-	border: none;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.btn_cus:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-/* Button 1 */
-.btn_cus-1 {
-	border: 3px solid #fff;
-	color: #fff;
-}
-
-
-/* Button 1e */
-.btn_cus-1e {
-	overflow: hidden;
-}
-
-.btn_cus-1e:after {
-	width: 100%;
-	height: 0;
-	top: 50%;
-	left: 50%;
-	background: #fff;
-	opacity: 0;
-	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	transform: translateX(-50%) translateY(-50%) rotate(45deg);
-}
-
-.btn_cus-1e:hover,
-.btn_cus-1e:active {
-	color: #FF3B30 ;
-}
-
-.btn_cus-1e:hover:after {
-	height: 260%;
-	opacity: 1;
-}
-
-.btn_cus-1e:active:after {
-	height: 400%;
-	opacity: 1;
-}
-.no-touch .note-touch {
-	display: none;
-}
-
-.btn_cus_con {
-	background: #FF3B30;
-	opacity: 0.9;
 }
 .navbar-fixed {
     transition: all 0.3s ease-in-out;
@@ -112,4 +61,7 @@
 	object-fit: cover;
 	height: 100px;
 	border-radius: 4px;
+  }
+.transition-bg {
+	transition: background-color 0.3s ease-in-out;
   }

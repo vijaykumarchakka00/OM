@@ -13,172 +13,103 @@
 </head>
 
 <body style="font-family: cursive;font-weight: bold;">
-    <header class="header2-bg secondary-col-bg position-relative">
-        <nav class="navbar navbar-expand-lg fixed-top"> <!-- Added fixed-top class here -->
-            <div class="container-fluid">
-                <div class="row w-100">
-                    <div class="col-lg-3">
-                        <a class="navbar-brand" href="#">
-                            <img src="/Images/Casa de Amor - white.png" class="img-fluid w-50" alt="logo" />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse float-lg-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" aria-current="page" href="#">WHAT'S ON</a>
-                                </li>
-                                <li class="nav-item px-lg-4">
-                                    <a class="nav-link text-white" href="#">FOOD & DRINKS</a>
-                                </li>
-                                <li class="nav-item px-lg-4">
-                                    <a class="nav-link text-white" href="#">FUNCTIONS</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link text-white" href="#">CONTACT</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <button class="btn orange-bg text-white float-lg-end" type="submit">Book Now</button>
+  <header class="text-white height-10 bg-black position-relative">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top transition-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/Images/Casa de Amor - white.png" class="img-fluid" alt="Logo" style="height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex">
+          <ul class="navbar-nav mb-2 h4 mb-lg-0">
+            <li class="nav-item"><a class="nav-link text-white" href="#">WHAT'S ON</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">FOOD & DRINKS</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">FUNCTIONS</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">CONTACT</a></li>
+          </ul>
+        </div>
+  
+        <div class="d-none d-xl-block">
+            <button class="btn btn-lg orange-bg text-white float-lg-end px-xxl-5 py-xxl-3" type="submit">Book Now</button>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Offcanvas Mobile Menu -->
+    <div class="offcanvas offcanvas-start orange-bg text-white w-100" id="offcanvasExample">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#">WHAT'S ON</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">FOOD & DRINKS</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">FUNCTIONS</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    
+  </header>
+    <section class="row m-0 bg-black">
+      <div class="col-lg-6 col-xxl-4 d-flex flex-column justify-content-center align-items-start text-white p-4 p-md-5">
+        <h2 class="mb-4">THE BAR</h2>
+        <p>Your sanctuary on Chapel St, the bar at Death or Glory boasts a refined cocktail menu that reimagines the
+            classics with our own little riffs, plus our in-house stellar creations.</p>
+        <p>A well curated whiskey and tequila list that defines refinement to the beloved Moondog alcoholic
+            seltzers, boozy slushies, and a tap range featuring local darlings Young Henry’s, beauty drops like
+            Guinness, as well as a rotating carousel of both imported and domestics brews.</p>
+        <p>We have a love affair with booze, and we’d love to show you what’s good!</p>
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <button class="btn btn-lg orange-bg px-lg-5 py-lg-2 text-white" type="submit">Book Now</button>
+        </div>
+    </div>
+        <div class="col-lg-6 p-0">
+            <img src="https://images.squarespace-cdn.com/content/v1/65728f1a4ce5a1708b059765/10b2786e-7c38-4a20-840f-c16fc539eac3/dog-05.jpg?format=1500w"
+                class="img-fluid w-100 h-100" alt="Images" />
+        </div>
+    </section>
+
+
+    <section class="bg-black p-5">
+        <div class="container py-lg-5">
+            <div class="row align-items-center text-white text-center py-lg-5 gap-5 gap-lg-0">
+                <div class="col-lg-4">
+                <p>We acknowledge the traditional owners of the land on which we do business, the Wurundjeri Woi Wurrung and Bunurong peoples of the East Kulin Nations. We pay our respect to their Elders past, present and emerging.</p>
+                <p>We extend that respect to all Aboriginal and Torres Strait Islander peoples. We acknowledge their living connection to Country, relationship with the land and all living things extending back tens of thousands of years.</p>
+                </div>
+                <div class="col-lg-4">
+                <img src="/Images/Casa de Amor - white.png" class="img-fluid" alt="log"/>
+                </div>
+                <div class="col-lg-4">
+                    <h4>CONTACT DETAILS</h4>
+                    <h5>218 CHAPEL ST, PRAHRAN</h5>
+                    <h4>TRADING HOURS</h4>
+                    <h5>TUE-THU | 4PM-LATE</h5>
+                    <h5>FRI-SUN | 12PM-LATE</h5>
                     </div>
                 </div>
-
-            </div>
-
-        </nav>
-    </header>
-
-    <section class="row m-0 justify-content-center bg-black text-white">
-        <div class="col-lg-5">
-            <h1 class="text-center display-4 mt-lg-5 display-md-2">WHAT’S ON AT  <span class="d-block">DEATH OR GLORY</span></h1>
         </div>
-        <div class="col-lg-10">
-            <p class="text-center fs-4  mt-lg-3 mb-lg-5">Make your way down to D.O.G and enjoy an array of food and drink specials, recurring weekly entertainment like Shit Pub Trivia, as well as standalone live music gigs and exhibitions.</p>
-
-        </div>
-    </section>
-    <section class="row m-0 orange-bg">
-        <div class="col-lg-6 p-0">
-            <img src="https://images.squarespace-cdn.com/content/v1/65728f1a4ce5a1708b059765/10b2786e-7c38-4a20-840f-c16fc539eac3/dog-05.jpg?format=1500w"
-                class="img-fluid " alt="Images" />
-        </div>
-
-        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-white p-5">
-            <h2 class="mb-4">THE BAR</h2>
-            <p>Your sanctuary on Chapel St, the bar at Death or Glory boasts a refined cocktail menu that reimagines the
-                classics with our own little riffs, plus our in-house stellar creations.</p>
-            <p>A well curated whiskey and tequila list that defines refinement to the beloved Moondog alcoholic
-                seltzers, boozy slushies, and a tap range featuring local darlings Young Henry’s, beauty drops like
-                Guinness, as well as a rotating carousel of both imported and domestics brews.</p>
-            <p>We have a love affair with booze, and we’d love to show you what’s good!</p>
-            <div class="mt-4 d-flex gap-3 flex-wrap">
-                <button class="btn bg-black text-white btn-lg">DRINK MENU</button>
-                <button class="btn bg-black text-white btn-lg">VIEW MORE</button>
-            </div>
-        </div>
-    </section>
-    <section class="row m-0 justify-content-end bg-black">
-        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-white p-5">
-            <h2 class="mb-4">THE BAR</h2>
-            <p>Your sanctuary on Chapel St, the bar at Death or Glory boasts a refined cocktail menu that reimagines the
-                classics with our own little riffs, plus our in-house stellar creations.</p>
-            <p>A well curated whiskey and tequila list that defines refinement to the beloved Moondog alcoholic
-                seltzers, boozy slushies, and a tap range featuring local darlings Young Henry’s, beauty drops like
-                Guinness, as well as a rotating carousel of both imported and domestics brews.</p>
-            <p>We have a love affair with booze, and we’d love to show you what’s good!</p>
-            <div class="mt-4 d-flex gap-3 flex-wrap">
-                <button class="btn btn-dark orange-bg text-white btn-lg">DRINK MENU</button>
-                <button class="btn btn-dark orange-bg text-white btn-lg">VIEW MORE</button>
-            </div>
-        </div>
-        <div class="col-lg-6 p-0">
-            <img src="https://images.squarespace-cdn.com/content/v1/65728f1a4ce5a1708b059765/10b2786e-7c38-4a20-840f-c16fc539eac3/dog-05.jpg?format=1500w"
-                class="img-fluid" alt="Images" />
-        </div>
-
-
-    </section>
-    <section class="row m-0 orange-bg">
-        <div class="col-lg-6 p-0">
-            <img src="https://images.squarespace-cdn.com/content/v1/65728f1a4ce5a1708b059765/10b2786e-7c38-4a20-840f-c16fc539eac3/dog-05.jpg?format=1500w"
-                class="img-fluid " alt="Images" />
-        </div>
-
-        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-white p-5">
-            <h2 class="mb-4">THE BAR</h2>
-            <p>Your sanctuary on Chapel St, the bar at Death or Glory boasts a refined cocktail menu that reimagines the
-                classics with our own little riffs, plus our in-house stellar creations.</p>
-            <p>A well curated whiskey and tequila list that defines refinement to the beloved Moondog alcoholic
-                seltzers, boozy slushies, and a tap range featuring local darlings Young Henry’s, beauty drops like
-                Guinness, as well as a rotating carousel of both imported and domestics brews.</p>
-            <p>We have a love affair with booze, and we’d love to show you what’s good!</p>
-            <div class="mt-4 d-flex gap-3 flex-wrap">
-                <button class="btn bg-black text-white btn-lg">DRINK MENU</button>
-                <button class="btn bg-black text-white btn-lg">VIEW MORE</button>
-            </div>
-        </div>
-    </section>
-    <section class="row m-0 justify-content-end orange-bg">
-        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-white p-5">
-            <h2 class="mb-4">THE BAR</h2>
-            <p>Your sanctuary on Chapel St, the bar at Death or Glory boasts a refined cocktail menu that reimagines the
-                classics with our own little riffs, plus our in-house stellar creations.</p>
-            <p>A well curated whiskey and tequila list that defines refinement to the beloved Moondog alcoholic
-                seltzers, boozy slushies, and a tap range featuring local darlings Young Henry’s, beauty drops like
-                Guinness, as well as a rotating carousel of both imported and domestics brews.</p>
-            <p>We have a love affair with booze, and we’d love to show you what’s good!</p>
-            <div class="mt-4 d-flex gap-3 flex-wrap">
-                <button class="btn btn-dark text-white btn-lg">DRINK MENU</button>
-                <button class="btn btn-dark text-white btn-lg">VIEW MORE</button>
-            </div>
-        </div>
-        <div class="col-lg-6 p-0">
-            <img src="https://images.squarespace-cdn.com/content/v1/65728f1a4ce5a1708b059765/10b2786e-7c38-4a20-840f-c16fc539eac3/dog-05.jpg?format=1500w"
-                class="img-fluid" alt="Images" />
-        </div>
-    </section>
-
-<section class="bg-black">
-<div class="container py-lg-5">
-    <div class="row align-items-center text-white text-center py-lg-5">
-        <div class="col-lg-4">
-        <p>We acknowledge the traditional owners of the land on which we do business, the Wurundjeri Woi Wurrung and Bunurong peoples of the East Kulin Nations. We pay our respect to their Elders past, present and emerging.</p>
-        <p>We extend that respect to all Aboriginal and Torres Strait Islander peoples. We acknowledge their living connection to Country, relationship with the land and all living things extending back tens of thousands of years.</p>
-        </div>
-        <div class="col-lg-4">
-        <img src="/Images/Casa de Amor - white.png" class="img-fluid" alt="log"/>
-        </div>
-        <div class="col-lg-4">
-            <h4>CONTACT DETAILS</h4>
-            <h5>218 CHAPEL ST, PRAHRAN</h5>
-            <h4>TRADING HOURS</h4>
-            <h5>TUE-THU | 4PM-LATE</h5>
-            <h5>FRI-SUN | 12PM-LATE</h5>
-            </div>
-        </div>
-</div>
-</section>
+        </section>
 
     <!-- Bootstrap JS Bundle CDN (includes Popper) -->
     <script>
-        window.onscroll = function () {
-            var navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {  // Change 50px to the scroll position you want
-                navbar.classList.add('navbar-fixed');
-            } else {
-                navbar.classList.remove('navbar-fixed');
-            }
-        };
-
-    </script>
-
+        const navbar = document.querySelector('.navbar');
+      
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 10) {
+            navbar.classList.add('bg-black');
+          } else {
+            navbar.classList.remove('bg-black');
+          }
+        });
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
