@@ -35,6 +35,7 @@ body, p, div, li, ul, ol, table, td, th, input, textarea {
   line-height: 1.2em !important;
   letter-spacing: -3px;
   word-spacing: -3px !important;
+  scroll-behavior: smooth;
 }
 
 /* === Backgrounds === */
@@ -70,7 +71,7 @@ header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -162,3 +163,46 @@ header::before {
   padding: 0.5rem 0;
 }
 
+.icon-circle {
+    width: 85px;
+    height: 85px;
+}
+
+/* Social buttons in the review section */
+.review-social-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Social buttons at the bottom */
+.social-icon-bottom-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* The angled box for store hours */
+.angled-hours-box {
+    /* Using clip-path to create the angled effect on the left side */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 0% 85%);
+    
+}
+.footer-bg{
+  background-image: url('/Images/10861.jpg');
+  
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .angled-hours-box {
+        clip-path: none;
+        border-radius: 0.5rem; /* Revert to a normal box with rounded corners */
+        padding: 1.5rem !important;
+        margin-top: 1rem;
+    }
+}
