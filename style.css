@@ -79,11 +79,11 @@ header::before {
   position: relative;
   z-index: 2;
 }
-
+/* 
 .header2-bg {
   background-image: url('/Images/Casa%20De%20Amor-17.jpg');
   height: 60vh;
-}
+} */
 
 .header3-bg {
   background-image: url('/Images/Casa%20De%20Amor-47.jpg');
