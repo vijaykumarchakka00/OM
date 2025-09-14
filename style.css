@@ -63,11 +63,11 @@ body, p, div, li, ul, ol, table, td, th, input, textarea {
 }
 
 /* Overlay for readability */
-header {
+.header_class {
   height: 100vh;
   position: relative;
 }
-header::before {
+.header_class::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -85,10 +85,10 @@ header::before {
   height: 60vh;
 } */
 
-.header3-bg {
+/* .header3-bg {
   background-image: url('/Images/Casa%20De%20Amor-47.jpg');
   height: 70vh;
-}
+} */
 
 /* === Utilities === */
 .height-10 { height: 10vh; }
